@@ -52,3 +52,11 @@ while (count < number)
     count += 2;
 }
 */
+int number = Convert.ToInt32(Console.ReadLine());
+int chet = 1;
+while (chet <= number)
+{
+    if (number % 2 ==0)
+        Console.Write(chet + " ");
+    chet++;
+}

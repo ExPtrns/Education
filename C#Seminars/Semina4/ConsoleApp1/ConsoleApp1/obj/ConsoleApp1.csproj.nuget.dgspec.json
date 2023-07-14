@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Education\\C#Seminars\\Seminar2\\HW2\\HW2\\HW2.csproj": {}
+    "D:\\Education\\C#Seminars\\Semina4\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "D:\\Education\\C#Seminars\\Seminar2\\HW2\\HW2\\HW2.csproj": {
+    "D:\\Education\\C#Seminars\\Semina4\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Education\\C#Seminars\\Seminar2\\HW2\\HW2\\HW2.csproj",
-        "projectName": "HW2",
-        "projectPath": "D:\\Education\\C#Seminars\\Seminar2\\HW2\\HW2\\HW2.csproj",
+        "projectUniqueName": "D:\\Education\\C#Seminars\\Semina4\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectName": "ConsoleApp1",
+        "projectPath": "D:\\Education\\C#Seminars\\Semina4\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\Den\\.nuget\\packages\\",
-        "outputPath": "D:\\Education\\C#Seminars\\Seminar2\\HW2\\HW2\\obj\\",
+        "outputPath": "D:\\Education\\C#Seminars\\Semina4\\ConsoleApp1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
