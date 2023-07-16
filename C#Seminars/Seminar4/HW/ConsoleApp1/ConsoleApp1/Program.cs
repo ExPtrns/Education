@@ -38,7 +38,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Сумма цифр числа {0} = {1}.",number,ToSum(number)); 
 */
 
-//Задача 29: Напишите программу, которая задаёт массив из m элементов и выводит их на экран. Разработать метод CreateArray(int size),
+/*//Задача 29: Напишите программу, которая задаёт массив из m элементов и выводит их на экран. Разработать метод CreateArray(int size),
 //генерирующий массив на основе данных, вводимых пользователем.
 //1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 //6, 1, 33-> [6, 1, 33]
@@ -76,4 +76,4 @@ int length = Convert.ToInt32(Console.ReadLine());
 
 int[] myArray = CreateUserArray(length);
 Console.Write("Создан массив: ");
-ShowArray(myArray);
+ShowArray(myArray);*/

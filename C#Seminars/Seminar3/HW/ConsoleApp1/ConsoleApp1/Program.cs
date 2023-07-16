@@ -1,10 +1,9 @@
-﻿/*//Задача 19
+﻿//Задача 19
 //Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 
 
 bool Palindrom5 (int number)
 {
-    bool pal;
     int temp = number % 10;
     if ((number / 10000) == temp )
     {
@@ -21,7 +20,7 @@ bool Palindrom5 (int number)
 Console.Write("Введите пятизначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 if (Palindrom5(number)) Console.WriteLine("Число {0} это палиндром.", number);
-else Console.WriteLine("Число {0} это НЕ палиндром.", number);*/
+else Console.WriteLine("Число {0} это НЕ палиндром.", number);
 
 /*//Задача 21
 //Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
