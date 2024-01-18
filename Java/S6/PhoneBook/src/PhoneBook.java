@@ -36,10 +36,10 @@ class PhoneBook {
         for (Map.Entry<String, ArrayList<Integer>> entry : phoneBook.entrySet()) {
             list.add(entry.getValue().size());
         }
-        Collections.sort(list,Comparator.reverseOrder());
+        Collections.sort(list, Comparator.reverseOrder());
         for (Integer num : list) {
             for (Map.Entry<String, ArrayList<Integer>> entry : phoneBook.entrySet()) {
-                if(entry.getValue().size() == num){
+                if (entry.getValue().size() == num) {
                     sortedMap.put(entry.getKey(), entry.getValue().toString());
                 }
             }

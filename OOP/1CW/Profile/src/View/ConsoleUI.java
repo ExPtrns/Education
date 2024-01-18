@@ -28,13 +28,16 @@ public class ConsoleUI implements View {
         System.out.println("Программа по созданию профиля пользователей");
         while (fl) {
             System.out.println(menu.menuElements());
-
             String choice = scanner.nextLine();
-            int correctChoice = Integer.parseInt(choice);
-            System.out.println(correctChoice);
-            menu.action(correctChoice);
-
-
+            try {
+                int correctChoice = Integer.parseInt(choice);
+                System.out.println(correctChoice);
+                menu.action(correctChoice);
+            }catch (NumberFormatException e) {
+                System.out.println("Такой операции не существует.");;
+            }catch (IndexOutOfBoundsException e){
+                System.out.println("Доступно только 3 операции.");
+            }
         }
 
     }
